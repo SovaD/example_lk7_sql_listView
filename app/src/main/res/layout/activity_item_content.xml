@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20px"
+    android:orientation="vertical"
+    tools:context=".ItemContentActivity">
+
+    <TextView
+        android:id="@+id/index"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50px"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/index"
+        android:paddingVertical="50px"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:paddingVertical="30dp"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/vImage"
+            android:layout_width="300dp"
+            android:layout_height="300dp" />
+
+        <ImageButton
+            android:id="@+id/btnImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTintMode="screen"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pen" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnSave"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:backgroundTintMode="screen"
+            android:scaleType="fitCenter"
+            android:src="@drawable/save" />
+
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:backgroundTintMode="screen"
+            android:scaleType="fitCenter"
+            android:src="@drawable/delete" />
+    </LinearLayout>
+
+</RelativeLayout>

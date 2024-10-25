@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="names">
+        <item>Tom</item>
+        <item>Sam</item>
+        <item>Alice</item>
+        <item>Kate</item>
+        <item>Peter</item>
+        <item>Henry</item>
+        <item>Oleg</item>
+        <item>Anne</item>
+        <item>Pitt</item>
+        <item>Ken</item>
+        <item>Tom</item>
+        <item>Sam</item>
+        <item>Alice</item>
+        <item>Kate</item>
+        <item>Peter</item>
+        <item>Henry</item>
+        <item>Oleg</item>
+        <item>Anne</item>
+        <item>Pitt</item>
+        <item>Ken</item>
+        <item>Tom</item>
+        <item>Sam</item>
+        <item>Alice</item>
+        <item>Kate</item>
+        <item>Peter</item>
+        <item>Henry</item>
+        <item>Oleg</item>
+        <item>Anne</item>
+        <item>Pitt</item>
+        <item>Ken</item>
+    </string-array>
+</resources>
